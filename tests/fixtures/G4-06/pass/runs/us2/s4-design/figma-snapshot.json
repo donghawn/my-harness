@@ -1,0 +1,202 @@
+{
+  "pages": [
+    {
+      "page": "02_Tokens",
+      "frames": [
+        {
+          "name": "Colors",
+          "width": 800,
+          "height": 400,
+          "nodes": [
+            {
+              "id": "t:1",
+              "type": "FRAME",
+              "fills": [
+                "#10ab7d"
+              ]
+            },
+            {
+              "id": "t:2",
+              "type": "FRAME",
+              "fills": [
+                "#fa342c"
+              ]
+            },
+            {
+              "id": "t:3",
+              "type": "FRAME",
+              "fills": [
+                "#1a1c20"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "03_Components",
+      "frames": [
+        {
+          "name": "ActionButton",
+          "width": 400,
+          "height": 200,
+          "nodes": [
+            {
+              "id": "c:1",
+              "type": "COMPONENT",
+              "fills": [
+                "#10ab7d"
+              ],
+              "name": "Button/BrandSolid",
+              "radius": 12,
+              "padding": [
+                14,
+                20
+              ],
+              "gap": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "04_Screens",
+      "frames": [
+        {
+          "name": "us2-screen-01",
+          "width": 390,
+          "height": 844,
+          "nodes": [
+            {
+              "id": "1:1",
+              "type": "FRAME",
+              "fills": [
+                "#ffffff"
+              ]
+            },
+            {
+              "id": "1:2",
+              "type": "FRAME",
+              "fills": [
+                "#ffffff"
+              ],
+              "name": "TopNavigation",
+              "padding": [
+                0,
+                6
+              ]
+            },
+            {
+              "id": "1:3",
+              "type": "TEXT",
+              "fills": [
+                "#1a1c20"
+              ],
+              "characters": "오늘의 산책",
+              "fontSize": 18,
+              "fontWeight": 700
+            },
+            {
+              "id": "1:4",
+              "type": "FRAME",
+              "fills": [
+                "#f7f8f9"
+              ],
+              "name": "Card",
+              "radius": 16,
+              "padding": [
+                16,
+                16
+              ],
+              "gap": 8
+            },
+            {
+              "id": "1:5",
+              "type": "INSTANCE",
+              "fills": [
+                "#10ab7d"
+              ],
+              "name": "Button/BrandSolid",
+              "radius": 12,
+              "padding": [
+                14,
+                20
+              ],
+              "gap": 8
+            },
+            {
+              "id": "1:6",
+              "type": "TEXT",
+              "fills": [
+                "#ffffff"
+              ],
+              "characters": "산책 종료",
+              "fontSize": 18,
+              "fontWeight": 700
+            }
+          ]
+        },
+        {
+          "name": "us2-screen-02-warning",
+          "width": 390,
+          "height": 844,
+          "nodes": [
+            {
+              "id": "2:1",
+              "type": "FRAME",
+              "fills": [
+                "#ffffff"
+              ]
+            },
+            {
+              "id": "2:2",
+              "type": "FRAME",
+              "fills": [
+                "#fdf0f0"
+              ],
+              "name": "WarningBanner",
+              "radius": 12,
+              "padding": [
+                12,
+                16
+              ]
+            },
+            {
+              "id": "2:3",
+              "type": "TEXT",
+              "fills": [
+                "#fa342c"
+              ],
+              "characters": "리드줄이 2m를 넘었어요",
+              "fontSize": 22,
+              "fontWeight": 700
+            },
+            {
+              "id": "2:4",
+              "type": "TEXT",
+              "fills": [
+                "#555d6d"
+              ],
+              "characters": "반려견을 가까이 데려와 주세요",
+              "fontSize": 16,
+              "fontWeight": 400
+            },
+            {
+              "id": "2:5",
+              "type": "INSTANCE",
+              "fills": [
+                "#fa342c"
+              ],
+              "name": "Button/CriticalSolid",
+              "radius": 12,
+              "padding": [
+                14,
+                20
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

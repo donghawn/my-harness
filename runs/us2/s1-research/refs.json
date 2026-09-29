@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ref-01",
+    "url": "https://uibowl.io/name/%EC%85%94%ED%81%B4?patterns=%EA%B8%B0%ED%83%80&imgId=cmrt0zp8w001jjz04wpsezby1",
+    "app": "셔클",
+    "note": "주행 지도 위에 뜨는 변경 알림 팝업. 상단 원형 아이콘, 굵은 한 줄 제목, 보조 설명, 확인 버튼 1개. 지도 맥락을 dim으로 유지한다"
+  },
+  {
+    "id": "ref-02",
+    "url": "https://uibowl.io/name/%EC%95%84%EC%9D%B4%EC%BF%A0%EC%B9%B4?patterns=iPhone%20%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7&imgId=cmp0tis1n00c8jp047zwgx99h",
+    "app": "아이쿠카",
+    "note": "안심존(반경 원) 이탈 시 상단 배너로 '...에서 벗어났어요' 알림. 지도에 반경 원과 프로필 핀으로 기준 거리를 시각화한다"
+  },
+  {
+    "id": "ref-03",
+    "url": "https://uibowl.io/name/%EC%9B%8C%ED%81%AC%EC%98%A8?patterns=%EC%A0%9C%EC%96%B4&imgId=cmudxbsme0048jv04q8k9r2kf",
+    "app": "워크온",
+    "note": "걷기 운동 측정 화면. 지도 상단, 하단 카드에 시간·거리·속도 2×2 수치, 하단 풀폭 CTA 1개"
+  },
+  {
+    "id": "ref-04",
+    "url": "https://uibowl.io/name/%ED%94%BC%EB%A6%AC%EB%B6%80%EB%8A%94%EA%B0%95%EC%95%84%EC%A7%80?patterns=%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&imgId=clvf2jlxq003ul8085y9wfwnb",
+    "app": "피리부는강아지",
+    "note": "반려견 산책 지도. 현위치에 강아지 캐릭터 핀, 상단 포인트 칩, 우측 플로팅 버튼(필터·현위치), 하단 CTA 위 포인트 안내 말풍선"
+  },
+  {
+    "id": "ref-05",
+    "url": "https://uibowl.io/name/%ED%8E%AB%ED%94%BC%20?patterns=%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&imgId=cm3be2i4h005rjp0cw3afv3u8",
+    "app": "펫피",
+    "note": "반려견 산책하기 화면. 반려견 프로필 아바타가 지도 중앙, 하단 시트에 거리·포인트·시간 3열 수치와 산책하기 버튼"
+  },
+  {
+    "id": "ref-06",
+    "url": "https://uibowl.io/name/%ED%94%BC%EB%A6%AC%EB%B6%80%EB%8A%94%EA%B0%95%EC%95%84%EC%A7%80?patterns=%EA%B8%80%EC%93%B0%EA%B8%B0&imgId=clvf2d9cf000vl808yw43yukz",
+    "app": "피리부는강아지",
+    "note": "배지 획득 팝업. 상단 색 띠에 보상 문구, 중앙 강아지 캐릭터 일러스트, 버튼 2개(확인/배지 보기). 캐릭터로 상황을 전달한다"
+  },
+  {
+    "id": "ref-07",
+    "url": "https://uibowl.io/name/%EC%B1%84%EB%B9%84?patterns=%EB%A9%94%EC%9D%B8&imgId=cmoi0a0cw000kjv049hmrvovp",
+    "app": "채비",
+    "note": "경고 성격의 중앙 다이얼로그. 느낌표 원형 아이콘 + 한 줄 메시지 + 취소/확인. 아이콘으로 경고 성격을 먼저 인지시킨다"
+  }
+]

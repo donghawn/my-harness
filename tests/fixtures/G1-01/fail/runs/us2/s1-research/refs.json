@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ref-01",
+    "url": "https://www.uibowl.io/screens/1",
+    "app": "App1",
+    "note": "메모 1"
+  },
+  {
+    "id": "ref-02",
+    "url": "https://www.uibowl.io/screens/2",
+    "app": "App2",
+    "note": "메모 2"
+  },
+  {
+    "id": "ref-03",
+    "url": "https://www.uibowl.io/screens/3",
+    "app": "App3",
+    "note": "메모 3"
+  },
+  {
+    "id": "ref-04",
+    "url": "https://www.uibowl.io/screens/4",
+    "app": "App4",
+    "note": "메모 4"
+  }
+]

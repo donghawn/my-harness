@@ -1,0 +1,578 @@
+{
+  "version": "1.0",
+  "source": "DESIGN.md (Seed Rootage 2.9.0 + HOWPET override)",
+  "updated": "2026-09-30",
+  "allowed": {
+    "colors": {
+      "fg.brand": {
+        "light": "#10ab7d",
+        "dark": "#22b27f"
+      },
+      "fg.brand-contrast": {
+        "light": "#079171",
+        "dark": "#22b27f"
+      },
+      "fg.critical": {
+        "light": "#fa342c",
+        "dark": "#ff6e60"
+      },
+      "fg.critical-contrast": {
+        "light": "#921708",
+        "dark": "#f8c5c3"
+      },
+      "fg.disabled": {
+        "light": "#d1d3d8",
+        "dark": "#5b606a"
+      },
+      "fg.informative": {
+        "light": "#8969ea",
+        "dark": "#a78df0"
+      },
+      "fg.informative-contrast": {
+        "light": "#50379b",
+        "dark": "#d9cefa"
+      },
+      "fg.neutral": {
+        "light": "#1a1c20",
+        "dark": "#f3f4f5"
+      },
+      "fg.neutral-inverted": {
+        "light": "#ffffff",
+        "dark": "#16171b"
+      },
+      "fg.neutral-muted": {
+        "light": "#555d6d",
+        "dark": "#dcdee3"
+      },
+      "fg.neutral-subtle": {
+        "light": "#868b94",
+        "dark": "#b0b3ba"
+      },
+      "fg.placeholder": {
+        "light": "#b0b3ba",
+        "dark": "#868b94"
+      },
+      "fg.positive": {
+        "light": "#217cf9",
+        "dark": "#41a2f9"
+      },
+      "fg.positive-contrast": {
+        "light": "#0b4596",
+        "dark": "#b9d7fb"
+      },
+      "fg.warning": {
+        "light": "#9b7821",
+        "dark": "#ca901c"
+      },
+      "fg.warning-contrast": {
+        "light": "#4f3e1f",
+        "dark": "#e5d49b"
+      },
+      "bg.brand-solid": {
+        "light": "#10ab7d",
+        "dark": "#1b946d"
+      },
+      "bg.brand-solid-pressed": {
+        "light": "#079171",
+        "dark": "#22b27f"
+      },
+      "bg.brand-weak": {
+        "light": "#edfaf6",
+        "dark": "#202926"
+      },
+      "bg.brand-weak-pressed": {
+        "light": "#d9f6e9",
+        "dark": "#20362e"
+      },
+      "bg.critical-solid": {
+        "light": "#fa342c",
+        "dark": "#f73526"
+      },
+      "bg.critical-solid-pressed": {
+        "light": "#ca1d13",
+        "dark": "#ff6e60"
+      },
+      "bg.critical-weak": {
+        "light": "#fdf0f0",
+        "dark": "#322323"
+      },
+      "bg.critical-weak-pressed": {
+        "light": "#fde7e7",
+        "dark": "#4f2624"
+      },
+      "bg.disabled": {
+        "light": "#f3f4f5",
+        "dark": "#2b2e35"
+      },
+      "bg.informative-solid": {
+        "light": "#8969ea",
+        "dark": "#8e6bee"
+      },
+      "bg.informative-solid-pressed": {
+        "light": "#6d50cb",
+        "dark": "#a78df0"
+      },
+      "bg.informative-weak": {
+        "light": "#f5f3fe",
+        "dark": "#28213b"
+      },
+      "bg.informative-weak-pressed": {
+        "light": "#efeafe",
+        "dark": "#3b2873"
+      },
+      "bg.layer-basement": {
+        "light": "#f3f4f5",
+        "dark": "#000000"
+      },
+      "bg.layer-default": {
+        "light": "#ffffff",
+        "dark": "#16171b"
+      },
+      "bg.layer-default-pressed": {
+        "light": "#f7f8f9",
+        "dark": "#2b2e35"
+      },
+      "bg.layer-floating": {
+        "light": "#ffffff",
+        "dark": "#1d2025"
+      },
+      "bg.layer-floating-pressed": {
+        "light": "#f7f8f9",
+        "dark": "#2b2e35"
+      },
+      "bg.magic-weak": {
+        "light": "#f9f2ee",
+        "dark": "#201f1f"
+      },
+      "bg.neutral-inverted": {
+        "light": "#2a3038",
+        "dark": "#f3f4f5"
+      },
+      "bg.neutral-inverted-pressed": {
+        "light": "#555d6d",
+        "dark": "#dcdee3"
+      },
+      "bg.neutral-solid": {
+        "light": "#1a1c20",
+        "dark": "#2b2e35"
+      },
+      "bg.neutral-weak": {
+        "light": "#f3f4f5",
+        "dark": "#2b2e35"
+      },
+      "bg.neutral-weak-alpha": {
+        "light": "#0000000c",
+        "dark": "#ffffff20"
+      },
+      "bg.neutral-weak-alpha-pressed": {
+        "light": "#00000010",
+        "dark": "#ffffff2e"
+      },
+      "bg.neutral-weak-pressed": {
+        "light": "#eeeff1",
+        "dark": "#393d46"
+      },
+      "bg.overlay": {
+        "light": "#00000074",
+        "dark": "#00000074"
+      },
+      "bg.overlay-muted": {
+        "light": "#0000002c",
+        "dark": "#0000002c"
+      },
+      "bg.positive-solid": {
+        "light": "#217cf9",
+        "dark": "#1e82eb"
+      },
+      "bg.positive-solid-pressed": {
+        "light": "#135fcd",
+        "dark": "#41a2f9"
+      },
+      "bg.positive-weak": {
+        "light": "#eff6ff",
+        "dark": "#202742"
+      },
+      "bg.positive-weak-pressed": {
+        "light": "#e2edfc",
+        "dark": "#1e3352"
+      },
+      "bg.transparent": {
+        "light": "#00000000",
+        "dark": "#ffffff00"
+      },
+      "bg.transparent-pressed": {
+        "light": "#00000007",
+        "dark": "#ffffff0d"
+      },
+      "bg.transparent-selected": {
+        "light": "#0000000c",
+        "dark": "#ffffff17"
+      },
+      "bg.transparent-selected-pressed": {
+        "light": "#00000010",
+        "dark": "#ffffff20"
+      },
+      "bg.warning-solid": {
+        "light": "#fbdc65",
+        "dark": "#dab156"
+      },
+      "bg.warning-solid-pressed": {
+        "light": "#e9c647",
+        "dark": "#e5d49b"
+      },
+      "bg.warning-weak": {
+        "light": "#fff7de",
+        "dark": "#302819"
+      },
+      "bg.warning-weak-pressed": {
+        "light": "#fdefb9",
+        "dark": "#413218"
+      },
+      "stroke.brand-solid": {
+        "light": "#079171",
+        "dark": "#22b27f"
+      },
+      "stroke.brand-weak": {
+        "light": "#b9e9d2",
+        "dark": "#20493b"
+      },
+      "stroke.critical-solid": {
+        "light": "#fa342c",
+        "dark": "#ff6e60"
+      },
+      "stroke.critical-weak": {
+        "light": "#fed4d2",
+        "dark": "#742826"
+      },
+      "stroke.focus-ring": {
+        "light": "#5e98fe",
+        "dark": "#1e82eb"
+      },
+      "stroke.informative-solid": {
+        "light": "#8969ea",
+        "dark": "#a78df0"
+      },
+      "stroke.informative-weak": {
+        "light": "#e1d8ff",
+        "dark": "#443081"
+      },
+      "stroke.neutral-contrast": {
+        "light": "#1a1c20",
+        "dark": "#f3f4f5"
+      },
+      "stroke.neutral-muted": {
+        "light": "#00000010",
+        "dark": "#ffffff17"
+      },
+      "stroke.neutral-solid": {
+        "light": "#555d6d",
+        "dark": "#dcdee3"
+      },
+      "stroke.neutral-subtle": {
+        "light": "#0000000c",
+        "dark": "#ffffff0d"
+      },
+      "stroke.neutral-weak": {
+        "light": "#dcdee3",
+        "dark": "#393d46"
+      },
+      "stroke.positive-solid": {
+        "light": "#217cf9",
+        "dark": "#41a2f9"
+      },
+      "stroke.positive-weak": {
+        "light": "#cbdffa",
+        "dark": "#1a4275"
+      },
+      "stroke.warning-solid": {
+        "light": "#9b7821",
+        "dark": "#ca901c"
+      },
+      "stroke.warning-weak": {
+        "light": "#fbdc65",
+        "dark": "#543e15"
+      },
+      "howpet.secondary-yellow": {
+        "light": "#fbdc65",
+        "dark": "#543e15"
+      },
+      "howpet.secondary-yellow-weak": {
+        "light": "#fff7de",
+        "dark": "#302819"
+      },
+      "howpet.quiz-navy": {
+        "light": "#032451",
+        "dark": "#032451"
+      },
+      "palette.static-white": {
+        "light": "#ffffff",
+        "dark": "#ffffff"
+      },
+      "palette.static-white-alpha-700": {
+        "light": "#ffffffb3",
+        "dark": "#ffffffb3"
+      }
+    },
+    "colors_extra": [
+      "#00000000",
+      "#ffffff00"
+    ],
+    "radius": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      20,
+      24,
+      9999
+    ],
+    "fontSize": [
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26
+    ],
+    "fontWeight": [
+      400,
+      500,
+      700
+    ],
+    "spacing": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      48,
+      52,
+      56,
+      64
+    ],
+    "frame": {
+      "width": 390,
+      "height": 844
+    },
+    "components": [
+      "ActionButton",
+      "TextInput",
+      "TopNavigation",
+      "ListItem",
+      "Chip",
+      "Badge",
+      "Tab",
+      "BottomSheet",
+      "AlertDialog",
+      "Snackbar"
+    ],
+    "frame_naming": {
+      "pattern": "^us(?P<us>[1-6])-screen-(?P<nn>\\d{2})(?P<warning>-warning)?$",
+      "maps_to": "runs/us{us}/s2-spec/screen-{nn}.md",
+      "warning_suffix": "-warning"
+    }
+  },
+  "gates": {
+    "G1": {
+      "at": "S1->S2",
+      "checks": [
+        {
+          "id": "G1-01",
+          "rule": "count(refs.json) in [5,10]"
+        },
+        {
+          "id": "G1-02",
+          "rule": "all refs[].url hostname labels contain 'uibowl'"
+        },
+        {
+          "id": "G1-03",
+          "rule": "each refs[].id has refs/{id}.png"
+        },
+        {
+          "id": "G1-04",
+          "rule": "count(insights.md items) in [3,5]"
+        },
+        {
+          "id": "G1-05",
+          "rule": "each insight cites >=1 existing ref id"
+        }
+      ],
+      "on_fail": {
+        "goto": "S1",
+        "max_retry": 2,
+        "then": "stop_and_notify"
+      }
+    },
+    "G2": {
+      "at": "S2->S3",
+      "checks": [
+        {
+          "id": "G2-01",
+          "rule": "count(screen-*.md) in [2,3]"
+        },
+        {
+          "id": "G2-02",
+          "rule": "each spec has headers [목적, 유저스토리, 섹션, 컴포넌트, 상태]"
+        },
+        {
+          "id": "G2-03",
+          "rule": "spec 유저스토리 == input us"
+        },
+        {
+          "id": "G2-04",
+          "rule": "spec 컴포넌트 ⊆ allowed.components"
+        },
+        {
+          "id": "G2-05",
+          "rule": "spec 상태 ⊇ [기본, 빈 화면, 오류]"
+        },
+        {
+          "id": "SVC-01",
+          "source": "story-service 어기면 안 되는 것 #1",
+          "rule": "if spec contains ('지도'|'경로') then 상태 contains '위치 동의 전'"
+        },
+        {
+          "id": "SVC-02",
+          "source": "story-service 어기면 안 되는 것 #1",
+          "rule": "if spec contains '공유' then 섹션 contains '출발·도착 구간 가림'"
+        },
+        {
+          "id": "SVC-04a",
+          "source": "story-service 어기면 안 되는 것 #2",
+          "rule": "if us == 2 then some spec text contains '2m'"
+        }
+      ],
+      "on_fail": {
+        "goto": "S2",
+        "max_retry": 2,
+        "then": "stop_and_notify"
+      }
+    },
+    "G3": {
+      "at": "S3->S4",
+      "checks": [
+        {
+          "id": "G3-01",
+          "rule": "count(01_Keyscreen frames) in [2,3]"
+        },
+        {
+          "id": "G3-02",
+          "rule": "all frames width==390 and height==844"
+        },
+        {
+          "id": "G3-03",
+          "rule": "approval.json.status == 'approved' and approval.json.us == input us"
+        },
+        {
+          "id": "G3-04",
+          "rule": "all frame names match allowed.frame_naming.pattern"
+        }
+      ],
+      "human_approval": {
+        "writer": "human_only",
+        "commands": [
+          "/approve us{N}",
+          "/reject us{N} design|reference \"사유\""
+        ],
+        "agent_write": "blocked_by_hook"
+      },
+      "on_fail": {
+        "rejected": {
+          "design": "S2",
+          "reference": "S1"
+        }
+      }
+    },
+    "G4": {
+      "at": "S4->done",
+      "checks": [
+        {
+          "id": "G4-01",
+          "rule": "fills[].hex ∈ allowed.colors ∪ colors_extra"
+        },
+        {
+          "id": "G4-02",
+          "rule": "radius ∈ allowed.radius"
+        },
+        {
+          "id": "G4-03",
+          "rule": "fontSize ∈ allowed.fontSize"
+        },
+        {
+          "id": "G4-04",
+          "rule": "fontWeight ∈ allowed.fontWeight"
+        },
+        {
+          "id": "G4-05",
+          "rule": "padding[] and gap ∈ allowed.spacing"
+        },
+        {
+          "id": "G4-06",
+          "rule": "04_Screens frames width==390 and height==844"
+        },
+        {
+          "id": "G4-08",
+          "rule": "all frame names match allowed.frame_naming.pattern and map to an existing spec"
+        },
+        {
+          "id": "G4-07",
+          "rule": "per frame count(button with fill #10ab7d) <= 1"
+        },
+        {
+          "id": "SVC-03",
+          "source": "story-service 어기면 안 되는 것 #1",
+          "rule": "frames mapped to specs containing '공유' have >=1 node named 'RouteMask'"
+        },
+        {
+          "id": "SVC-04b",
+          "source": "story-service 어기면 안 되는 것 #2",
+          "rule": "if us == 2 then frames with name suffix -warning has TEXT node containing '2m'"
+        },
+        {
+          "id": "SVC-05",
+          "source": "story-service 어기면 안 되는 것 #2",
+          "rule": "frames with name suffix -warning emphasis fills ∈ critical_hex",
+          "critical_hex": [
+            "#322323",
+            "#4f2624",
+            "#742826",
+            "#921708",
+            "#ca1d13",
+            "#f73526",
+            "#f8c5c3",
+            "#fa342c",
+            "#fde7e7",
+            "#fdf0f0",
+            "#fed4d2",
+            "#ff6e60"
+          ]
+        }
+      ],
+      "on_fail": {
+        "goto": "S4",
+        "max_retry_per_rule": 3,
+        "then": "stop_and_notify"
+      }
+    }
+  }
+}

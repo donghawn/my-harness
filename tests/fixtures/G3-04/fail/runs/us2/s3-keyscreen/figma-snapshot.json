@@ -1,0 +1,21 @@
+{
+  "pages": [
+    {
+      "page": "01_Keyscreen",
+      "frames": [
+        {
+          "name": "Keyscreen 1",
+          "width": 390,
+          "height": 844,
+          "nodes": []
+        },
+        {
+          "name": "us2-screen-02-warning",
+          "width": 390,
+          "height": 844,
+          "nodes": []
+        }
+      ]
+    }
+  ]
+}
